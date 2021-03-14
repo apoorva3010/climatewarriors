@@ -1,25 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {Component} from 'react';
+import Home from './components/home/home';
+import Subscription from './components/subscription/subscription';
+import Solutions from './components/solutions/solutions';
+import Addgraph from './components/graph/addgraph/addgraph';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
-function App() {
+class App extends Component {
+  render(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Route exact path='/' component={Home}></Route> 
+        <Route path='/statistics' component={Addgraph}></Route> 
+        </div>
+    </Router>
+        
   );
+}
 }
 
 export default App;

@@ -1,0 +1,34 @@
+.home{
+    min-height: 100vh;
+    background-color: #eeeeee ;
+    margin: 0;
+}
+
+.innerhome{
+    min-height: 80vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.filt{
+    filter: grayscale(100%);
+}
+
+.pure{
+    filter: grayscale(0%);
+}
+
+.leftcolumn{
+    font-family: 'DotGothic16', sans-serif;
+
+}
+
+.row{
+    margin-top: 0%;
+    margin-left: 2%;
+    margin-right: 2%;
+}

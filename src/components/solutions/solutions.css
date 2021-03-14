@@ -1,0 +1,18 @@
+.solutions{
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.rowsol{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.top10{
+    margin-top: 50%;
+    border-radius: 10px;
+}
+
+.box{
+    border-radius: 15px;
+}

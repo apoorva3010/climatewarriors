@@ -1,0 +1,27 @@
+.navbarr ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  #logo{
+      font-family: sans-serif;
+      font-weight: bolder;
+  }
+
+  .navbarr ul> li {
+    float: left;
+    font-family: 'DotGothic16', sans-serif;
+  }
+  
+  .navbarr > ul > li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
