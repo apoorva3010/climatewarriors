@@ -1,3 +1,5 @@
+This project has been built with the purpose of educating people about the urgency of climate change. To make it interesting, I have made the website interactive in some of the sections so the user feels connected. The need for this is to depict the statistical data related to climate change and infer important conclusions from them.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
